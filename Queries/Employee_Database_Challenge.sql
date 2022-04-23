@@ -97,3 +97,18 @@ ORDER BY e.emp_no;
 
 SELECT * 
 FROM mentorship_eligibility;
+
+
+------------------------------------------------
+-- DELIVERABLE 3
+-- DELIVERABLE 3 QUERIES
+
+-- Total count of Employees Eligible for Mentorship
+SELECT COUNT(emp_no) AS "Total count of Employees Eligible for Mentorship"
+FROM mentorship_eligibility;
+
+-- Count of Employees Eligible for Mentorship by Title
+SELECT title, COUNT(title) AS "count"
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY "count" DESC;
