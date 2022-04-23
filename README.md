@@ -51,7 +51,7 @@ FROM mentorship_eligibility;
 
 
 #### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-Then we will compare it with the number of job titles that will be retiring in the near future which are much higher, we can safely say that there are enough mentors to train the next generation of employees:
+Then we will compare it with the number of job titles that will be retiring in the near future which are much higher, we can safely say that there are enough mentors to train the next generation of employees: *(mouse-over for table titles)*
 
 ![Retiring_Titles](/images/retiring_titles.png "Retiring Titles") ![Mentorship_Eligible_Titles](/images/mentorship_eligible_titles.png "Mentorship Eligible Titles")
 
